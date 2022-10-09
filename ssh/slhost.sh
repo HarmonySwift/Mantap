@@ -22,7 +22,7 @@ sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 DOMAIN=harmonyswift.com
 SUB_DOMAIN=hs-${sub}.harmonyswift.com
-NS_DOMAIN=hsw-${sub}.mantapxsl.my.id
+NS_DOMAIN=hsw-${sub}.harmonyswift.com
 CF_ID=auperwing@gmail.com
 CF_KEY=e79431dc85570f38811c05f99bf44aae02501
 set -euo pipefail
