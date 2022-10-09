@@ -20,7 +20,7 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=harmonyswift.com
+DOMAIN=arzjoanna.com
 SUB_DOMAIN=hs-${sub}.arzjoanna.com
 NS_DOMAIN=hsw-${sub}.arzjoanna.com
 CF_ID=auperwing@gmail.com
